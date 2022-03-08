@@ -112,7 +112,7 @@ header .mobile {
 
 /* Sign Up Section */
 
-#sign-up-section {
+ #sign-up-section {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -326,7 +326,7 @@ header .mobile {
   #filters-section .extra {
     display: none;
   }
-}
+} 
 
 /* Quotes Section */
 
