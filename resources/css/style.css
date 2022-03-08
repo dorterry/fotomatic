@@ -8,6 +8,9 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+  background-image: url("/Users/dao/Projects/Codecademy/Fotomatic/resources/images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .center {
@@ -117,6 +120,7 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  padding: 10.625rem 0 10.625rem 6.25rem;
 }
 
 #sign-up-cta {
