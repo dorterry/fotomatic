@@ -8,9 +8,6 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
-  background-image: url("/Users/dao/Projects/Codecademy/Fotomatic/resources/images/banner-landingpage.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
 }
 
 .center {
@@ -29,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -44,6 +42,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 1;
 }
 
 header .content {
@@ -120,7 +119,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-  padding: 10.625rem 0 10.625rem 6.25rem;
+  background-image: url("/Users/dao/Projects/Codecademy/Fotomatic/resources/images/banner-landingpage.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
@@ -128,6 +130,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  position: relative;
+  margin: 10.625rem 0 6.25rem 6.25rem;
 }
 
 #sign-up-cta .content {
@@ -227,6 +231,10 @@ header .mobile {
   background-color: white;
 }
 
+.feature .content {
+  padding: 2.5rem 0;
+}
+
 .feature .image-container {
   width: 90%;
   height: 65%;
@@ -298,6 +306,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
@@ -336,6 +345,10 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  font-family: Palatino-Italic ;
+  font-size: 1.875rem;
+  line-height: 1.1;
+  padding: 5rem 0;
 }
 
 #quotes-section content {
